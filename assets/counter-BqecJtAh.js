@@ -1,0 +1,1 @@
+import{G as t,a as u,D as r,r as c}from"./index-DEffmWxO.js";const f=t("counter",()=>{const e=u(0),o=r(()=>e.value*2);function n(){e.value++}return{count:e,doubleCount:o,increment:n}}),i=t("userInfo",()=>{let e=c({});const o=r(()=>e);function n(s){e=s,console.log(e)}return{getUserInfo:o,setUserInfo:n}});export{i as a,f as u};
