@@ -1,0 +1,1 @@
+import{u as o}from"./counter-BKFnFdvm.js";import{c as a,b as t,z as r,e as s,F as c,o as l}from"./index-ne1UfJAq.js";const d={__name:"likeIndex",setup(u){let e=o();const n=()=>{e.increment()};return(m,p)=>(l(),a(c,null,[t("span",null,r(s(e).count),1),t("button",{onClick:n},"加")],64))}};export{d as default};
