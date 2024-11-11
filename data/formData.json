@@ -1,0 +1,95 @@
+{
+  "id": "1",
+  "baseInfo": {
+    "name": "测试表单",
+    "role": [
+      {
+        "id": "teacher",
+        "name": "教职工"
+      }
+    ],
+    "icon": {
+      "icon": "icon-file",
+      "color": "blue-1"
+    },
+    "remark": "这是一段备注"
+  },
+  "formInfo": {
+    "layout": [
+      {
+        "id": "001",
+        "title": "页面一",
+        "children": [
+          {
+            "id": "1-1-1",
+            "title": "姓名",
+            "type": "input",
+            "style": {
+              "col": 6
+            },
+            "props": {
+              "required": true,
+              "max": 50
+            }
+          },
+          {
+            "id": "1-1-2",
+            "title": "性别",
+            "type": "radio",
+            "style": {
+              "col": 6
+            },
+            "props": {
+              "required": true
+            }
+          },
+          {
+            "id": "1-1-3",
+            "title": "省份",
+            "type": "select",
+            "style": {
+              "col": 6
+            },
+            "props": {
+              "required": true
+            }
+          },
+          {
+            "id": "1-1-4",
+            "title": "出生日期",
+            "type": "date",
+            "style": {
+              "col": 6
+            },
+            "props": {
+              "required": true
+            }
+          },
+          {
+            "id": "1-1-5",
+            "title": "兴趣",
+            "type": "select",
+            "style": {
+              "col": 6
+            },
+            "props": {
+              "required": false,
+              "multiple": true
+            }
+          },
+          {
+            "id": "1-1-6",
+            "title": "照片",
+            "type": "image",
+            "style": {
+              "col": 6
+            },
+            "props": {
+              "required": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
